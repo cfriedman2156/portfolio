@@ -14,10 +14,11 @@ function Contact() {
         }
     }
     const validateEmail = (email) => {
-        const re =
-  /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-        return re.test(String(email).toLowerCase());
-    }
+      const re =
+          /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return re.test(String(email).toLowerCase());
+  };
+  
     const handleChange = (event) => {
         if (event.target.name ==='email') {
             const isValid = validateEmail(event.target.value);
