@@ -4,7 +4,7 @@ import profilePhoto from "../images/profile.JPG"
 function About() {
     return <div className="hero min-h-screen bg-base-200 ">
     <div className="hero-content flex-col lg:flex-row">
-      <img src={profilePhoto} className="max-w-lg m-6 rounded-lg shadow-2xl" />
+      <img src={profilePhoto} alt="Profile Image"className="max-w-lg m-6 rounded-lg shadow-2xl" />
       <div>
         <h1 className="text-5xl mt-5 font-bold">About</h1>
         <p className="py-3">Chase Friedman's journey is nothing short of remarkable. Originally hailing from San Diego, he ventured to Whitman College to pursue his passion for tennis, eventually graduating with a degree in Film and Media Studies, coupled with a minor in Chemistry.</p>
