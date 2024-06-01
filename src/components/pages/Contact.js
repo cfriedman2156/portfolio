@@ -7,7 +7,6 @@ function Contact() {
         message: ''
     })
     const [errorMessage, setErrorMessage] = useState('');
-    const {name, email, message} = formState;
     const handleSubmit = (event) => {
         event.preventDefault();
         if (!errorMessage) {
