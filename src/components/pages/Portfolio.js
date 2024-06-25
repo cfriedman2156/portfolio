@@ -10,26 +10,29 @@ function Portfolio() {
             title: "ReadyCheck",
             description: "An app that allows you to send out 'group-up' notifications to your friends! Get together for a gaming session, pickleball or anything in between. Built with MongoDB, GraphQL API, Express.js, Node.js and React.",
             image: readyCheck,
-            link: "https://ready-check.onrender.com/"
+            deployed: "https://ready-check.onrender.com/",
+            github: "https://github.com/jasongalas/ready-check"
         },
         {
             title: "PlayP🎯int",
             description: "A gaming review app where you can search for any game, write reviews, update reviews, add friends and see their reviews. Built using Node.js, Express.js, Handlebars.js, PostgreSQL and Sequelize. (Deployed with Render, please give it time to load)",
             image: playpoint,
-            link: "https://playpoint.onrender.com/signup"
+            deployed: "https://playpoint.onrender.com/signup",
+            github: "https://github.com/cfriedman2156/playpoint"
         },
         {
             title: "TRVLR",
             description: "Using TRVLR you can plan upcoming trips! By entering your destination you can convert currency and learn fun facts about your destination. Built with HTML, CSS and JS.",
             image: trvlr,
-            link: "https://cfriedman2156.github.io/travel-companion-app/"
+            deployed: "https://cfriedman2156.github.io/travel-companion-app/",
+            github: "https://github.com/cfriedman2156/travel-companion-app"
         },
         
         {
             title: "2 The Rescue Animal Sanctuary",
             description: "A website for an animal sanctuary that stores all animal data in MongoDB. Integration with Stripe for donations and monthly sponsorships.",
             image: comingSoon,
-            link: ""
+            deployed: ""
         },
     ];
 
@@ -48,9 +51,14 @@ function Portfolio() {
                                 <div className="card-body text-left">
                                     <h2 className="card-title">{project.title}</h2>
                                     <p>{project.description}</p>
-                                    <div className="card-actions justify-end">
-                                        {project.link ? (
-                                            <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">View</a>
+                                    <div className="card-actions justify-around">
+                                        {project.deployed ? (
+                                            <a href={project.deployed} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Deployed Site</a>
+                                        ) : (
+                                            <button className="btn btn-primary" disabled>Coming Soon!</button>
+                                        )}
+                                        {project.github ? (
+                                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Github</a>
                                         ) : (
                                             <button className="btn btn-primary" disabled>Coming Soon!</button>
                                         )}
