@@ -16,7 +16,6 @@ function Nav(props) {
     };
 
     useEffect(() => {
-        const navContent = document.getElementById('nav-content');
         const header = document.getElementById('header');
 
         const handleScroll = () => {
