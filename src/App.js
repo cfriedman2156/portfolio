@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Page from './components/Page'
 import './App.css';
+import './index.css';
 
 function App() {
   
@@ -13,9 +14,9 @@ function App() {
     {
       name: 'Portfolio',
     },
-    {
-      name: 'Contact',
-    },
+    // {
+    //   name: 'Contact',
+    // },
     {
       name: 'Resume',
     },

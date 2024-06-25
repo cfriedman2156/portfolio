@@ -3,65 +3,90 @@ import React from "react";
 function Resume() {
     return (
         <div className="p-20 bg-base-200">
-            <h1 className="text-4xl text-center font-bold mb-2">Chase Friedman</h1>
-            <p className="text-center"> (619) 866-8663 | chaseafriedman@gmail.com</p>
-            
-            <h2 className="text-3xl font-bold mt-6">Professional Experience</h2>
-            
-            <h3 className="text-xl font-bold mt-4">Content Creator, Self-Employed, Los Angeles, CA</h3>
-            <p className="font-bold">August 2022 - Present</p>
-            <ul className="list-disc list-inside">
-                <li>Documented and shared the journey of full recovery from a C4-C7 spinal cord injury</li>
-                <li>Built a substantial and engaged follower base from scratch that reached over 500,000 followers, showcasing effective content strategy and audience engagement</li>
-                <li>Independently negotiated brand deals, resulting in profitable collaborations with various companies</li>
-                <li>Provided personalized support and consultation to spinal cord injury patients, offering guidance and motivation based on personal recovery experiences</li>
-                <li>TikTok: @chasegetsbetter, IG: @chaseunfiltered</li>
-            </ul>
-            
-            <h3 className="text-xl font-bold mt-4">Project Manager, Levity Live, Los Angeles, CA</h3>
-            <p className="font-bold">November 2021 - August 2022</p>
-            <ul className="list-disc list-inside">
-                <li>Managed day-to-day business operations of the careers of high-profile clients, including daily schedules with clients and clubs, TV and movie development, acting, brand deals, social media, and live engagements</li>
-                <li>Proved to potential buyers that our clients were right for the job, then managed and made sure our clients delivered/produced what we’ve promised</li>
-                <li>Produced Taylor Tomlinson’s two Netflix Comedy Specials, including organizing the events, scheduling, critiquing material, editing, and working with other producers. Spearheaded promo for both projects which each made the Netflix Top 10 upon release</li>
-                <li>Adapted to the environmental challenge of COVID in 2020, developing Bert Kreischer’s innovative drive-in theater tour. It was the first national COVID-safe comedy tour and made him the highest-grossing comedy touring artist of the year</li>
-                <li>Spearheaded promo for two of Bert Kreischer’s Netflix Comedy Specials and his Netflix Variety Show which all made the Netflix Top 10 upon release</li>
-                <li>Applied my connections with Nickelodeon to cast Darci Lynne on the top-rated show, Unfiltered, leading to guest appearances on additional Nickelodeon programs</li>
-                <li>Tracked the feature film, A Cowgirl’s Song, communicated with producers and casting to lock Darci Lynne as the second lead opposite Cheryl Ladd. Negotiated her deal, worked with production for a successful product, and worked with a publicist to secure national radio and daytime television appearances</li>
-                <li>Strategically helped route and promote comedy tours, leading to the growth of Taylor Tomlinson from an average of 5k to 150k guarantees, Bert Kreischer from 25k to 150k, and Sebastian Maniscalco from 50k to 500k for each live performance</li>
-                <li>Navigated the needs of potential buyers to close deals, even when we don’t have what they’re initially looking for, by flipping offers to different clients</li>
-                <li>Used industry contacts to scout a potential client, take meetings with him, and secure a sign amongst competition from other management companies and without assistance from senior managers</li>
-            </ul>
-            
-            <h3 className="text-xl font-bold mt-4">Assistant, Levity Live, Los Angeles, CA</h3>
-            <p className="font-bold">March 2019 - November 2021</p>
-            <ul className="list-disc list-inside">
-                <li>Supported the President of Talent</li>
-                <li>Maintained and organized client calendars</li>
-                <li>Communicated regularly with producers and casting directors about prospective roles for clients</li>
-                <li>Scheduled appointments for boss and clients</li>
-                <li>Completed booking reports, expenses, contracts, and tracking lists</li>
-            </ul>
-            
-            <h3 className="text-xl font-bold mt-4">Assistant, Paradigm Talent Agency, Beverly Hills, CA</h3>
-            <p className="font-bold">June 2018 - March 2019</p>
-            <ul className="list-disc list-inside">
-                <li>Supported head of TV Talent department</li>
-                <li>Scheduled auditions, edited reels, and wrote client biographies</li>
-                <li>Attended and took notes at weekly feature and television meetings</li>
-                <li>Evaluated movie screenplays and television scripts with clients’ interest in mind</li>
-            </ul>
-            
-            <h2 className="text-3xl font-bold mt-6">Relevant Skills</h2>
-            <p>React | HTML | JS | CSS | Bootstrap | NodeJS | MongoDB | Jest | Git</p>
-            <p>Excellent Communication | Project Operations Management | Contract Negotiation | Microsoft Office</p>
-            
-            <h2 className="text-3xl font-bold mt-6">Education</h2>
-            <p>UCLA Extension Full Stack BootCamp</p>
-            <p>Whitman College, Walla Walla, WA, Graduated May 2018</p>
-            <p>Major: Film and Media Studies, Minor: Chemistry</p>
-            <p>Pearson Achievement Scholarship Recipient</p>
-            <p>NCAA Scholar Athlete (Tennis) with a Major GPA of 3.7</p>
+            <h1 className="text-5xl text-center font-bold mb-2">Chase Friedman</h1>
+            <p className="text-center">Los Angeles, CA | (619) 866-8663 | chaseafriedman@gmail.com</p>
+            <p className="text-center">LinkedIn: <a className='text-primary' href="https://www.linkedin.com/in/chase-friedman-a20372133/">Chase Friedman</a></p>
+            <p className="text-center">GitHub: <a className='text-primary' href="https://github.com/cfriedman2156">cfriedman2156</a></p>
+            <section className="m-10">
+                <h2 className="text-3xl font-bold mt-6 text-center ">Summary</h2>
+                <p className="px-6 py-2 text-center mx-32">Full Stack Web Developer with a diverse background in content creation, project management, and talent representation. Demonstrated expertise in developing user-friendly applications, managing high-profile projects, and building substantial online followings. Known for effective content strategy, audience engagement, and strong communication skills.</p>
+
+                <h2 className="text-3xl font-bold mt-6 text-center">Technical Skills</h2>
+                <p className="px-6 py-2 text-center"><span className="font-semibold">Languages: </span>HTML, CSS, JavaScript, React, NextJS, NodeJS, Handlebars</p>
+                <p className="px-6 text-center"><span className="font-semibold">Applications: </span>Git, Jest, Insomnia, GraphQL, MongoDB, PostgreSQL, Microsoft Office</p>
+
+                <h2 className="text-3xl font-bold mt-6 text-center">Projects</h2>
+                <div className="text-center">
+                    <h3 className="text-xl font-bold mt-4 px-6 ">ReadyCheck</h3>
+                    <div className="px-6 py-2">
+                        <p>GitHub: <a className='text-primary' href="https://github.com/jasongalas/ready-check">jasongalas/ready-check</a> | Deployed: <a className='text-primary' href="https://ready-check.onrender.com/">ready-check.onrender.com</a></p>
+                        <p>A scheduling and event management tool with invite and RSVP functionality.</p>
+                        <p>Core responsibilities: Developed the frontend using React and Tailwind, implemented backend with NodeJS and MongoDB.</p>
+                        <p>Tools/languages used: React, NodeJS, MongoDB, Socket.io</p>
+                    </div>
+                    <div className="px-6 py-2">
+                        <h3 className="text-xl font-bold mt-4">PlayPoint</h3>
+                        <p>GitHub: <a className='text-primary' href="https://github.com/cfriedman2156/playpoint">cfriedman2156/playpoint</a> | Deployed: <a className='text-primary' href="https://playpoint.onrender.com/">playpoint.onrender.com</a></p>
+                        <p>A game rating app where you can add friends, see and share their reviews.</p>
+                        <p>Core responsibilities: Designed and implemented the page using Tailwind CSS, DaisyUI, and Handlebars. Made backend routes for Sequelize database.</p>
+                        <p>Tools/languages used: Node, Handlebars, Insomnia, PostgreSQL</p>
+                    </div>
+                    <div className="px-6 py-2">
+                        <h3 className="text-xl font-bold mt-4">2 The Rescue Animal Sanctuary</h3>
+                        <p>GitHub: <a className='text-primary' href="https://github.com/cfriedman2156/2-the-rescue">cfriedman2156/2-the-rescue</a></p>
+                        <p>An animal sanctuary website, with details and all animals listed, donate, sponsor and shop options integrated with Stripe.</p>
+                        <p>Core responsibilities: Solo project, created all JS, styling, server side, client side, Multer and Stripe integration.</p>
+                        <p>Tools/languages used: Next.js, Tailwind, MongoDB, Multer, Stripe</p>
+                    </div>
+                </div>
+                <div className="mx-28">
+                    <h2 className="text-3xl font-bold mt-6">Experience</h2>
+                    <div>
+                        <h3 className="text-xl font-bold mt-4">Content Creator</h3>
+                        <p className="font-semibold">Self-Employed, Los Angeles, CA, August 2022 - Present</p>
+                        <p>Documented and shared the journey of full recovery from a C4-C7 spinal cord injury.</p>
+                        <p>Built a substantial and engaged follower base of over 500,000. Negotiated brand deals and provided personalized consultation to spinal cord injury patients.</p>                        
+                        <p className="font-semibold mt-2">Key Accomplishments:</p>
+                        <ul className="list-disc list-inside">
+                            <li>Grew social media following to 500,000+ through effective content strategy.</li>
+                            <li>Negotiated profitable brand deals independently. </li>
+                            <li>Provided support and guidance to spinal cord injury patients.</li>
+                        </ul>
+
+                        <h3 className="text-xl font-bold mt-4">Project Manager</h3>
+                        <p className="font-semibold">Levity Live, Los Angeles, CA, November 2021 - August 2022</p>
+                        <p>Managed day-to-day business operations for high-profile clients.</p>
+                        <p>Produced and promoted multiple Netflix Comedy Specials</p>
+                        <p>Developed innovative solutions during the COVID-19 pandemic.</p>
+                        <p className="font-semibold mt-2">Key Accomplishments: </p>
+                        <ul className="list-disc list-inside">
+                            <li>Produced and promoted Netflix Comedy Specials, achieving Top 10 releases.</li>
+                            <li>Developed and managed Bert Kreischer’s drive-in theater tour during COVID-19.</li>
+                            <li>Negotiated high-value deals and promoted successful comedy tours.</li>
+                        </ul>
+
+                        <h3 className="text-xl font-bold mt-4">Assistant</h3>
+                        <p className="font-semibold">Levity Live, Los Angeles, CA, March 2019 - November 2021</p>
+                        
+                            <p>Supported the President of Talent, managed client calendars, and communicated with producers and casting directors.</p>
+                        
+
+                        <h3 className="text-xl font-bold mt-4">Assistant</h3>
+                        <p className="font-semibold">Paradigm Talent Agency, Beverly Hills, CA, June 2018 - March 2019</p>
+                        
+                            <p>Supported the head of TV Talent department, scheduled auditions, and evaluated scripts.</p>
+                        
+                    </div>
+                    <h2 className="text-3xl font-bold mt-6">Education</h2>
+                    <div>
+                        <p className="font-semibold">Full Stack Web Development Boot Camp Certificate</p>
+                        <p>UCLA Extension, Los Angeles, CA</p>
+                        <p className="font-semibold">Bachelor of Arts in Film and Media Studies</p>
+                        <p>Whitman College, Walla Walla, WA, Graduated May 2018</p>
+                    </div>
+                </div>
+
+            </section>
         </div>
     );
 }
