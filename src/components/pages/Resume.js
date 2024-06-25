@@ -5,30 +5,30 @@ function Resume() {
         <div className="p-20 gradient align-center text-white">
             <h1 className="text-5xl pt-8 text-center font-bold mb-2">Chase Friedman</h1>
             <p className="text-center">Los Angeles, CA | (619) 866-8663 | chaseafriedman@gmail.com</p>
-            <p className="text-center">LinkedIn: <a className='' href="https://www.linkedin.com/in/chaseafriedman/">www.linkedin.com/in/chaseafriedman/</a></p>
-            <p className="text-center">GitHub: <a className='' href="https://github.com/cfriedman2156">github.com/cfriedman2156</a></p>
+            <p className="text-center">LinkedIn: <a href="https://www.linkedin.com/in/chaseafriedman/">www.linkedin.com/in/chaseafriedman/</a></p>
+            <p className="text-center">GitHub: <a  href="https://github.com/cfriedman2156">github.com/cfriedman2156</a></p>
             <section className="resume-block mx-auto">
                 <h2 className="text-3xl font-bold mt-6 text-center ">Summary</h2>
                 <div className="resume-block flex justify-center">
                     <p className="py-2 ">Full Stack Web Developer with a diverse background in content creation, project management, and talent representation. Demonstrated expertise in developing user-friendly applications, managing high-profile projects, and building substantial online followings. Known for effective content strategy, audience engagement, and strong communication skills.</p>
                 </div>
                 <h2 className="text-3xl font-bold mt-6 text-center">Technical Skills</h2>
-                <p className=" py-2 "><span className="font-semibold">Languages: </span>HTML, CSS, JavaScript, React, NextJS, NodeJS, Handlebars</p>
-                <p className=" "><span className="font-semibold">Applications: </span>Git, Jest, Insomnia, GraphQL, MongoDB, PostgreSQL, Microsoft Office, Google Suite</p>
+                <p className="py-2 "><span className="font-semibold">Languages: </span>HTML, CSS, JavaScript, React, NextJS, NodeJS, Handlebars</p>
+                <p><span className="font-semibold">Applications: </span>Git, Jest, Insomnia, GraphQL, MongoDB, PostgreSQL, Microsoft Office, Google Suite</p>
 
                 <h2 className="text-3xl font-bold mt-6 text-center">Related Experience</h2>
                 <div>
                     <h3 className="text-xl font-bold mt-4  ">UC Berkeley <span className="font-light"> | Web Developer</span></h3>
                     <h3 className="text-xl font-bold mt-2  ">ReadyCheck</h3>
                     <div className="py-2">
-                        <p>GitHub: <a href="https://github.com/jasongalas/ready-check">github.com/jasongalas/ready-check</a> | Deployed: <a className='' href="https://ready-check.onrender.com/">ready-check.onrender.com</a></p>
+                        <p>GitHub: <a href="https://github.com/jasongalas/ready-check">github.com/jasongalas/ready-check</a> | Deployed: <a href="https://ready-check.onrender.com/">ready-check.onrender.com</a></p>
                         <p>A scheduling and event management tool with invite and RSVP functionality.</p>
                         <p>Core responsibilities: Developed the frontend using React and Tailwind, implemented backend with NodeJS and MongoDB.</p>
                         <p>Tools/languages used: React, NodeJS, MongoDB, Socket.io</p>
                     </div>
                     <div className="py-2">
                         <h3 className="text-xl font-bold mt-4">PlayPoint</h3>
-                        <p>GitHub: <a href="https://github.com/cfriedman2156/playpoint">github.com/cfriedman2156/playpoint</a> | Deployed: <a className='' href="https://playpoint.onrender.com/">playpoint.onrender.com</a></p>
+                        <p>GitHub: <a href="https://github.com/cfriedman2156/playpoint">github.com/cfriedman2156/playpoint</a> | Deployed: <a href="https://playpoint.onrender.com/">playpoint.onrender.com</a></p>
                         <p>A game rating app where you can add friends, see and share their reviews.</p>
                         <p>Core responsibilities: Designed and implemented the page using Tailwind CSS, DaisyUI, and Handlebars. Made backend routes for Sequelize database.</p>
                         <p>Tools/languages used: Node, Handlebars, Insomnia, PostgreSQL</p>
