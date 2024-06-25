@@ -25,7 +25,9 @@ function Footer() {
     return (
         <footer className="footer footer-center p-5 gradient1 text-neutral-content">
             <nav>
-                <h6 className="text-white">Follow Chase on Socials</h6>
+                <p className="text-white font-semibold text-lg">Get in Contact</p>
+                <p className="text-white font-semibold">(619) 866-8663 | chaseafriedman@gmail.com</p>
+
                 <div className="grid grid-flow-col gap-4">
                     {icons.map((icon, index) => (
                         <a key={index} href={icon.link} target="_blank" rel="noopener noreferrer" className='btn btn-square'>

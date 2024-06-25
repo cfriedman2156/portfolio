@@ -14,3 +14,7 @@
 .text-light {
     color: #e7e5e5;
 }
+
+.resume-block {
+    max-width: 45rem;
+}
