@@ -14,9 +14,6 @@ function App() {
     {
       name: 'Portfolio',
     },
-    // {
-    //   name: 'Contact',
-    // },
     {
       name: 'Resume',
     },

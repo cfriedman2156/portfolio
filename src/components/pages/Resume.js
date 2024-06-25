@@ -2,8 +2,8 @@ import React from "react";
 
 function Resume() {
     return (
-        <div className="p-20 bg-base-200">
-            <h1 className="text-5xl text-center font-bold mb-2">Chase Friedman</h1>
+        <div className="p-20 gradient text-white">
+            <h1 className="text-5xl pt-8 text-center font-bold mb-2">Chase Friedman</h1>
             <p className="text-center">Los Angeles, CA | (619) 866-8663 | chaseafriedman@gmail.com</p>
             <p className="text-center">LinkedIn: <a className='text-primary' href="https://www.linkedin.com/in/chase-friedman-a20372133/">Chase Friedman</a></p>
             <p className="text-center">GitHub: <a className='text-primary' href="https://github.com/cfriedman2156">cfriedman2156</a></p>

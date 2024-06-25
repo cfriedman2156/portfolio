@@ -1,13 +1,14 @@
 import React from "react";
 import profilePhoto from "../images/profile.JPG";
+import '../../index.css'
 
 function About() {
   return (
-    <div className="min-h-screen bg-white flex flex-col lg:flex-row items-center">
+    <div className="pt-20 min-h-screen gradient flex flex-col lg:flex-row items-center">
       <div className="lg:w-1/3 w-full p-6">
         <img src={profilePhoto} alt="Profile" className="w-full m-6 rounded-lg shadow-2xl" />
       </div>
-      <div className="lg:w-2/3 w-full m-6">
+      <div className="lg:w-2/3 w-full m-6 text-white">
         <div>
           <h1 className="text-5xl font-bold">About</h1>
           <p className="py-3">Chase Friedman's journey is nothing short of remarkable. Originally hailing from San Diego, he ventured to Whitman College to pursue his passion for tennis, eventually graduating with a degree in Film and Media Studies, coupled with a minor in Chemistry.</p>
