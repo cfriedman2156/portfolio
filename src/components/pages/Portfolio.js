@@ -1,6 +1,7 @@
 import React from "react";
-import playpointGif from '../images/playpointgif.gif';
-import trvlrGif from '../images/trvlrgif.gif';
+import playpoint from '../images/playpoint.png';
+import trvlr from '../images/trvlr.png';
+import readyCheck from '../images/readycheck.png';
 import comingSoon from '../images/comingsoon.gif';
 
 function Portfolio() {
@@ -8,21 +9,27 @@ function Portfolio() {
         {
             title: "PlayP🎯int",
             description: "A gaming review app where you can search for any game, write reviews, update reviews, add friends and see their reviews. Built using Node.js, Express.js, Handlebars.js, PostgreSQL and Sequelize.",
-            image: playpointGif,
+            image: playpoint,
             link: "https://playpoint.onrender.com/"
         },
         {
             title: "TRVLR",
             description: "Using TRVLR you can plan upcoming trips! By entering your destination you can convert currency and learn fun facts about your destination. Built with HTML, CSS and JS.",
-            image: trvlrGif,
+            image: trvlr,
             link: "https://cfriedman2156.github.io/travel-companion-app/"
         },
         {
             title: "ReadyCheck",
             description: "An app that allows you to send out 'group-up' notifications to your friends! Get together for a gaming session, pickleball or anything in between. Built with MongoDB, GraphQL API, Express.js, Node.js and React.",
+            image: readyCheck,
+            link: "https://ready-check.onrender.com/"
+        },
+        {
+            title: "2 The Rescue Animal Sanctuary",
+            description: "A website for an animal sanctuary that stores all animal data in MongoDB. Integration with Stripe for donations and monthly sponsorships.",
             image: comingSoon,
             link: ""
-        }
+        },
     ];
 
     return (
