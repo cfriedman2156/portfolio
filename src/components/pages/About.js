@@ -1,5 +1,5 @@
 import React from "react";
-import profilePhoto from "../images/profile.JPG";
+import profilePhoto from "../images/profile.webp";
 import '../../index.css'
 
 function About() {
